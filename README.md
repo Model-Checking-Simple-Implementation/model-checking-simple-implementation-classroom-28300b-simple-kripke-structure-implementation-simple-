@@ -1,0 +1,5 @@
+# Simple Kripke Structure
+We introduced Kripke structures as one of the most widely used data structures to model a system. Our second task is to implement a Kripke Structure class with the ability to test for its validity. 
+Similarly to how DFAs were defined, we define in Kripke structures the states as objects, and connect them through transitions to create the LTS using only its initial states. The validity of Kripke structures is only determined by whether each state's label contains only propositions from the set of propositions introduced during the initialization of the Kripke structure. The `proposition` class is already implemented with the possibility to initialize multiple propositions at the same time by listing their names. 
+
+Complete the implementation of the classes `State` and `KripkeStructure` to satisfy the validity check.
